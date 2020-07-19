@@ -8,7 +8,7 @@ class SfgPetClinicApplicationTests {
 
 	@Test
 	void contextLoads() {
-		System.out.println("/n/n-------TEST-------/n/n");
+		System.out.println("/n/n--------TEST--------/n/n");
 	}
 
 }
