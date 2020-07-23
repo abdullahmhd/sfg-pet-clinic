@@ -4,12 +4,12 @@ import guru.sf.sfgpetclinic.model.Visit;
 import guru.sf.sfgpetclinic.repositories.VisitRepository;
 import guru.sf.sfgpetclinic.services.VisitService;
 import org.springframework.context.annotation.Profile;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.Set;
 
-@Component
+@Service
 @Profile("springdatajpa")
 public class VisitSDJpaService implements VisitService {
 
